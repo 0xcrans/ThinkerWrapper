@@ -1,9 +1,8 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './styles.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './styles.css';
 
-// Initialize Near Social VM environment
 window.InjectedConfig = {
   networkId: "mainnet",
   nodeUrl: "https://free.rpc.fastnear.com/",
@@ -17,5 +16,5 @@ window.InjectedConfig = {
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
