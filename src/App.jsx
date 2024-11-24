@@ -1,8 +1,6 @@
-// src/App.jsx
 import React from 'react';
 import CransActivityViewer from './pages/CransActivityViewer';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
+import './styles.css';
 
 function App() {
   return (
